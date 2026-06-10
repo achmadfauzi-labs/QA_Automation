@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunners" time="98.018" tests="27" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Project\Pribadi\Selenium\bootcampafteroffice\target\test-classes;D:\Project\Pribadi\Selenium\bootcampafteroffice\target\classes;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-java\4.39.0\selenium-java-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-api\4.39.0\selenium-api-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.39.0\selenium-chrome-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.39.0\selenium-chromium-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-json\4.39.0\selenium-json-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.39.0\selenium-manager-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.39.0\selenium-devtools-v141-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.39.0\selenium-devtools-v142-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.39.0\selenium-devtools-v143-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.39.0\selenium-edge-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.39.0\selenium-firefox-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-http\4.39.0\selenium-http-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.39.0\selenium-ie-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.39.0\selenium-remote-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\OUT2268\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\OUT2268\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\OUT2268\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\OUT2268\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-api\1.56.0\opentelemetry-api-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-context\1.56.0\opentelemetry-context-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-common\1.56.0\opentelemetry-common-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.56.0\opentelemetry-exporter-logging-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.56.0\opentelemetry-sdk-common-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.56.0\opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.56.0\opentelemetry-sdk-extension-autoconfigure-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.56.0\opentelemetry-sdk-trace-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.56.0\opentelemetry-sdk-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.56.0\opentelemetry-sdk-metrics-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.56.0\opentelemetry-sdk-logs-1.56.0.jar;C:\Users\OUT2268\.m2\repository\net\bytebuddy\byte-buddy\1.18.2\byte-buddy-1.18.2.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-os\4.39.0\selenium-os-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\apache\commons\commons-exec\1.6.0\commons-exec-1.6.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.39.0\selenium-safari-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-support\4.39.0\selenium-support-4.39.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-java\7.33.0\cucumber-java-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-core\7.33.0\cucumber-core-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-gherkin\7.33.0\cucumber-gherkin-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.33.0\cucumber-gherkin-messages-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\datatable\7.33.0\datatable-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-plugin\7.33.0\cucumber-plugin-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\docstring\7.33.0\docstring-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\html-formatter\22.2.0\html-formatter-22.2.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\OUT2268\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-junit\7.33.0\cucumber-junit-7.33.0.jar;C:\Users\OUT2268\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\OUT2268\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\OUT2268\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\OUT2268\AppData\Local\Temp\surefire14161056186701000285\surefirebooter-20260610154639288_3.jar C:\Users\OUT2268\AppData\Local\Temp\surefire14161056186701000285 2026-06-10T15-46-38_930-jvmRun1 surefire-20260610154639288_1tmp surefire_0-20260610154639288_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Project\Pribadi\Selenium\bootcampafteroffice\target\test-classes;D:\Project\Pribadi\Selenium\bootcampafteroffice\target\classes;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-java\4.39.0\selenium-java-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-api\4.39.0\selenium-api-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.39.0\selenium-chrome-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.39.0\selenium-chromium-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-json\4.39.0\selenium-json-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.39.0\selenium-manager-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.39.0\selenium-devtools-v141-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.39.0\selenium-devtools-v142-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.39.0\selenium-devtools-v143-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.39.0\selenium-edge-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.39.0\selenium-firefox-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-http\4.39.0\selenium-http-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.39.0\selenium-ie-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.39.0\selenium-remote-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\OUT2268\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\OUT2268\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\OUT2268\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\OUT2268\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-api\1.56.0\opentelemetry-api-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-context\1.56.0\opentelemetry-context-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-common\1.56.0\opentelemetry-common-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.56.0\opentelemetry-exporter-logging-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.56.0\opentelemetry-sdk-common-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.56.0\opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.56.0\opentelemetry-sdk-extension-autoconfigure-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.56.0\opentelemetry-sdk-trace-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.56.0\opentelemetry-sdk-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.56.0\opentelemetry-sdk-metrics-1.56.0.jar;C:\Users\OUT2268\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.56.0\opentelemetry-sdk-logs-1.56.0.jar;C:\Users\OUT2268\.m2\repository\net\bytebuddy\byte-buddy\1.18.2\byte-buddy-1.18.2.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-os\4.39.0\selenium-os-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\apache\commons\commons-exec\1.6.0\commons-exec-1.6.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.39.0\selenium-safari-driver-4.39.0.jar;C:\Users\OUT2268\.m2\repository\org\seleniumhq\selenium\selenium-support\4.39.0\selenium-support-4.39.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-java\7.33.0\cucumber-java-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-core\7.33.0\cucumber-core-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-gherkin\7.33.0\cucumber-gherkin-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.33.0\cucumber-gherkin-messages-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\datatable\7.33.0\datatable-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-plugin\7.33.0\cucumber-plugin-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\docstring\7.33.0\docstring-7.33.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\html-formatter\22.2.0\html-formatter-22.2.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\OUT2268\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\OUT2268\.m2\repository\io\cucumber\cucumber-junit\7.33.0\cucumber-junit-7.33.0.jar;C:\Users\OUT2268\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\OUT2268\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\OUT2268\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\OUT2268"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Project\Pribadi\Selenium\bootcampafteroffice"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\OUT2268\AppData\Local\Temp\surefire14161056186701000285\surefirebooter-20260610154639288_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="OUT2268"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\OUT2268\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\OUT2268\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="D:\Project\Pribadi\Selenium\bootcampafteroffice"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\OUT2268\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\OUT2268\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\app\client\OUT1088\product\12.2.0\client_1;D:\app\client\OUT1088\product\12.2.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\TortoiseSVN\bin;%JAVA_HOME%\bin;C:\Program Files\Java\jre-1.8;C:\Program Files\Java\jdk-17\bin;C:\apache-maven-3.9.2-bin\apache-maven-3.9.2\bin;C:\Program Files\PuTTY\;C:\Users\OUT2268\AppData\Local\Microsoft\WindowsApps;C:\Users\OUT2268\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\OUT2268\AppData\Local\Programs\IntelliJ IDEA Community Edition 2025.2\bin;c:\Users\OUT2268\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="View cart after adding item" classname="Shopping cart functionality for Sauce Demo application" time="4.98">
+    <system-out><![CDATA[
+Scenario: View cart after adding item                                                          # src/test/resources/features/Cart.feature:9
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” When I add product at index 0 to cart                                                      # steps.ProductStep.iAddProductAtIndexToCart(int)
+  âœ” And I click on the shopping cart                                                           # steps.ProductStep.iClickOnTheShoppingCart()
+  âœ” Then I should be on the cart page                                                          # steps.CartStep.iShouldBeOnTheCartPage()
+  âœ” And the cart should contain 1 items                                                        # steps.CartStep.theCartShouldContainItems(int)
+Scenario: View cart after adding item => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:46:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:46:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Remove item from cart" classname="Shopping cart functionality for Sauce Demo application" time="3.98">
+    <system-out><![CDATA[
+Scenario: Remove item from cart                                                                # src/test/resources/features/Cart.feature:15
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” When I add product at index 0 to cart                                                      # steps.ProductStep.iAddProductAtIndexToCart(int)
+  âœ” And I click on the shopping cart                                                           # steps.ProductStep.iClickOnTheShoppingCart()
+  âœ” And I remove item at index 0 from cart                                                     # steps.CartStep.iRemoveItemAtIndexFromCart(int)
+  âœ” Then the cart should be empty                                                              # steps.CartStep.theCartShouldBeEmpty()
+Scenario: Remove item from cart => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:46:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:46:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Continue shopping from cart page" classname="Shopping cart functionality for Sauce Demo application" time="3.115">
+    <system-out><![CDATA[
+Scenario: Continue shopping from cart page                                                     # src/test/resources/features/Cart.feature:21
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” When I add product at index 0 to cart                                                      # steps.ProductStep.iAddProductAtIndexToCart(int)
+  âœ” And I click on the shopping cart                                                           # steps.ProductStep.iClickOnTheShoppingCart()
+  âœ” And I click continue shopping                                                              # steps.CartStep.iClickContinueShopping()
+  âœ” Then I should be on the product page                                                       # steps.ProductStep.iShouldBeOnTheProductPage()
+Scenario: Continue shopping from cart page => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:46:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:46:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Cart persists multiple items" classname="Shopping cart functionality for Sauce Demo application" time="3.299">
+    <system-out><![CDATA[
+Scenario: Cart persists multiple items                                                         # src/test/resources/features/Cart.feature:27
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” When I add product at index 0 to cart                                                      # steps.ProductStep.iAddProductAtIndexToCart(int)
+  âœ” And I add product at index 1 to cart                                                       # steps.ProductStep.iAddProductAtIndexToCart(int)
+  âœ” And I click on the shopping cart                                                           # steps.ProductStep.iClickOnTheShoppingCart()
+  âœ” Then the cart should contain 2 items                                                       # steps.CartStep.theCartShouldContainItems(int)
+Scenario: Cart persists multiple items => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:46:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:46:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Successful login with valid credentials" classname="Login functionality for Sauce Demo application" time="2.885">
+    <system-out><![CDATA[
+Scenario: Successful login with valid credentials                                              # src/test/resources/features/Login.feature:3
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+Scenario: Successful login with valid credentials => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:46:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:46:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Failed login with invalid username" classname="Login functionality for Sauce Demo application" time="3.208">
+    <system-out><![CDATA[
+Scenario: Failed login with invalid username                                                                       # src/test/resources/features/Login.feature:9
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                                        # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "user_salah" and "secret_sauce"                                                             # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                                                   # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should see an error message "Epic sadface: Username and password do not match any user in this service" # steps.LoginStep.iShouldSeeAnErrorMessage(java.lang.String)
+  âœ” And I should still be on the login page                                                                        # steps.LoginStep.iShouldStillBeOnTheLoginPage()
+Scenario: Failed login with invalid username => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Failed login with invalid password" classname="Login functionality for Sauce Demo application" time="3.341">
+    <system-out><![CDATA[
+Scenario: Failed login with invalid password                                                                       # src/test/resources/features/Login.feature:16
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                                        # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_salah"                                                          # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                                                   # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should see an error message "Epic sadface: Username and password do not match any user in this service" # steps.LoginStep.iShouldSeeAnErrorMessage(java.lang.String)
+  âœ” And I should still be on the login page                                                                        # steps.LoginStep.iShouldStillBeOnTheLoginPage()
+Scenario: Failed login with invalid password => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Failed login with empty credentials" classname="Login functionality for Sauce Demo application" time="3.119">
+    <system-out><![CDATA[
+Scenario: Failed login with empty credentials                               # src/test/resources/features/Login.feature:23
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                 # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "" and ""                                            # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                            # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should see an error message "Epic sadface: Username is required" # steps.LoginStep.iShouldSeeAnErrorMessage(java.lang.String)
+Scenario: Failed login with empty credentials => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Failed login with empty username" classname="Login functionality for Sauce Demo application" time="3.298">
+    <system-out><![CDATA[
+Scenario: Failed login with empty username                                  # src/test/resources/features/Login.feature:29
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                 # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "" and "secret_sauce"                                # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                            # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should see an error message "Epic sadface: Username is required" # steps.LoginStep.iShouldSeeAnErrorMessage(java.lang.String)
+Scenario: Failed login with empty username => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Failed login with empty password" classname="Login functionality for Sauce Demo application" time="3.446">
+    <system-out><![CDATA[
+Scenario: Failed login with empty password                                  # src/test/resources/features/Login.feature:35
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                 # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and ""                               # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                            # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should see an error message "Epic sadface: Password is required" # steps.LoginStep.iShouldSeeAnErrorMessage(java.lang.String)
+Scenario: Failed login with empty password => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login with locked out user" classname="Login functionality for Sauce Demo application" time="3.307">
+    <system-out><![CDATA[
+Scenario: Login with locked out user                                                         # src/test/resources/features/Login.feature:41
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                  # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "locked_out_user" and "secret_sauce"                                  # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                             # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should see an error message "Epic sadface: Sorry, this user has been locked out." # steps.LoginStep.iShouldSeeAnErrorMessage(java.lang.String)
+  âœ” And I should still be on the login page                                                  # steps.LoginStep.iShouldStillBeOnTheLoginPage()
+Scenario: Login with locked out user => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login validation with multiple data sets #1" classname="Login functionality for Sauce Demo application" time="3.244">
+    <system-out><![CDATA[
+Scenario Outline: Login validation with multiple data sets                                                         # src/test/resources/features/Login.feature:56
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                                        # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "user_salah" and "secret_sauce"                                                             # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                                                   # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should see an error message "Epic sadface: Username and password do not match any user in this service" # steps.LoginStep.iShouldSeeAnErrorMessage(java.lang.String)
+Scenario: Login validation with multiple data sets => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login validation with multiple data sets #2" classname="Login functionality for Sauce Demo application" time="3.348">
+    <system-out><![CDATA[
+Scenario Outline: Login validation with multiple data sets                                                         # src/test/resources/features/Login.feature:57
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                                        # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_salah"                                                          # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                                                   # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should see an error message "Epic sadface: Username and password do not match any user in this service" # steps.LoginStep.iShouldSeeAnErrorMessage(java.lang.String)
+Scenario: Login validation with multiple data sets => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login validation with multiple data sets #3" classname="Login functionality for Sauce Demo application" time="3.158">
+    <system-out><![CDATA[
+Scenario Outline: Login validation with multiple data sets                  # src/test/resources/features/Login.feature:58
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                 # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "" and ""                                            # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                            # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should see an error message "Epic sadface: Username is required" # steps.LoginStep.iShouldSeeAnErrorMessage(java.lang.String)
+Scenario: Login validation with multiple data sets => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login validation with multiple data sets #4" classname="Login functionality for Sauce Demo application" time="3.612">
+    <system-out><![CDATA[
+Scenario Outline: Login validation with multiple data sets                  # src/test/resources/features/Login.feature:59
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                 # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "" and "secret_sauce"                                # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                            # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should see an error message "Epic sadface: Username is required" # steps.LoginStep.iShouldSeeAnErrorMessage(java.lang.String)
+Scenario: Login validation with multiple data sets => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Login validation with multiple data sets #5" classname="Login functionality for Sauce Demo application" time="3.517">
+    <system-out><![CDATA[
+Scenario Outline: Login validation with multiple data sets                  # src/test/resources/features/Login.feature:60
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                 # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and ""                               # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                            # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should see an error message "Epic sadface: Password is required" # steps.LoginStep.iShouldSeeAnErrorMessage(java.lang.String)
+Scenario: Login validation with multiple data sets => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Verify product page title after successful login" classname="Product page functionality for Sauce Demo application" time="3.723">
+    <system-out><![CDATA[
+Scenario: Verify product page title after successful login                                     # src/test/resources/features/Product.feature:9
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” Then I should see the product page title "Products"                                        # steps.ProductStep.iShouldSeeTheProductPageTitle(java.lang.String)
+Scenario: Verify product page title after successful login => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Verify product items are displayed" classname="Product page functionality for Sauce Demo application" time="3.561">
+    <system-out><![CDATA[
+Scenario: Verify product items are displayed                                                   # src/test/resources/features/Product.feature:12
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” Then I should see the product items listed                                                 # steps.ProductStep.iShouldSeeTheProductItemsListed()
+Scenario: Verify product items are displayed => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Verify total number of products" classname="Product page functionality for Sauce Demo application" time="3.348">
+    <system-out><![CDATA[
+Scenario: Verify total number of products                                                      # src/test/resources/features/Product.feature:15
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” Then I should see 6 products on the page                                                   # steps.ProductStep.iShouldSeeProductsOnThePage(int)
+Scenario: Verify total number of products => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Sort products by Name A to Z" classname="Product page functionality for Sauce Demo application" time="4.662">
+    <system-out><![CDATA[
+Scenario: Sort products by Name A to Z                                                         # src/test/resources/features/Product.feature:18
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” When I sort products by "Name (A to Z)"                                                    # steps.ProductStep.iSortProductsBy(java.lang.String)
+  âœ” Then products should be sorted by name ascending                                           # steps.ProductStep.productsShouldBeSortedByNameAscending()
+Scenario: Sort products by Name A to Z => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Sort products by Name Z to A" classname="Product page functionality for Sauce Demo application" time="3.945">
+    <system-out><![CDATA[
+Scenario: Sort products by Name Z to A                                                         # src/test/resources/features/Product.feature:22
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” When I sort products by "Name (Z to A)"                                                    # steps.ProductStep.iSortProductsBy(java.lang.String)
+  âœ” Then products should be sorted by name descending                                          # steps.ProductStep.productsShouldBeSortedByNameDescending()
+Scenario: Sort products by Name Z to A => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:53 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Sort products by price low to high" classname="Product page functionality for Sauce Demo application" time="3.819">
+    <system-out><![CDATA[
+Scenario: Sort products by price low to high                                                   # src/test/resources/features/Product.feature:26
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” When I sort products by "Price (low to high)"                                              # steps.ProductStep.iSortProductsBy(java.lang.String)
+  âœ” Then products should be sorted by price low to high                                        # steps.ProductStep.productsShouldBeSortedByPriceLowToHigh()
+Scenario: Sort products by price low to high => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:47:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:47:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Sort products by price high to low" classname="Product page functionality for Sauce Demo application" time="4.381">
+    <system-out><![CDATA[
+Scenario: Sort products by price high to low                                                   # src/test/resources/features/Product.feature:30
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” When I sort products by "Price (high to low)"                                              # steps.ProductStep.iSortProductsBy(java.lang.String)
+  âœ” Then products should be sorted by price high to low                                        # steps.ProductStep.productsShouldBeSortedByPriceHighToLow()
+Scenario: Sort products by price high to low => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:48:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:48:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Add single item to cart" classname="Product page functionality for Sauce Demo application" time="3.574">
+    <system-out><![CDATA[
+Scenario: Add single item to cart                                                              # src/test/resources/features/Product.feature:34
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” When I add product at index 0 to cart                                                      # steps.ProductStep.iAddProductAtIndexToCart(int)
+  âœ” Then the cart badge should show 1                                                          # steps.ProductStep.theCartBadgeShouldShow(int)
+Scenario: Add single item to cart => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:48:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:48:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Add multiple items to cart" classname="Product page functionality for Sauce Demo application" time="3.943">
+    <system-out><![CDATA[
+Scenario: Add multiple items to cart                                                           # src/test/resources/features/Product.feature:38
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” When I add product at index 0 to cart                                                      # steps.ProductStep.iAddProductAtIndexToCart(int)
+  âœ” And I add product at index 1 to cart                                                       # steps.ProductStep.iAddProductAtIndexToCart(int)
+  âœ” And I add product at index 2 to cart                                                       # steps.ProductStep.iAddProductAtIndexToCart(int)
+  âœ” Then the cart badge should show 3                                                          # steps.ProductStep.theCartBadgeShouldShow(int)
+Scenario: Add multiple items to cart => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:48:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:48:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Navigate to shopping cart" classname="Product page functionality for Sauce Demo application" time="3.285">
+    <system-out><![CDATA[
+Scenario: Navigate to shopping cart                                                            # src/test/resources/features/Product.feature:44
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” When I add product at index 0 to cart                                                      # steps.ProductStep.iAddProductAtIndexToCart(int)
+  âœ” And I click on the shopping cart                                                           # steps.ProductStep.iClickOnTheShoppingCart()
+  âœ” Then I should be on the cart page                                                          # steps.CartStep.iShouldBeOnTheCartPage()
+  âœ” And the cart should contain 1 items                                                        # steps.CartStep.theCartShouldContainItems(int)
+Scenario: Navigate to shopping cart => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:48:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:48:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Logout from product page" classname="Product page functionality for Sauce Demo application" time="4.044">
+    <system-out><![CDATA[
+Scenario: Logout from product page                                                             # src/test/resources/features/Product.feature:50
+Setting up WebDriver before scenario
+  âœ” Given I am on the Sauce Demo login page                                                    # steps.LoginStep.iAmOnTheSauceDemoLoginPage()
+  âœ” When I enter valid "standard_user" and "secret_sauce"                                      # steps.LoginStep.iEnterValidAnd(java.lang.String,java.lang.String)
+  âœ” And I click the login button                                                               # steps.LoginStep.iClickTheLoginButton()
+  âœ” Then I should be redirected to the product page "https://www.saucedemo.com/inventory.html" # steps.LoginStep.iShouldBeRedirectedToTheProductPage(java.lang.String)
+  âœ” When I logout from the application                                                         # steps.ProductStep.iLogoutFromTheApplication()
+  âœ” Then I should still be on the login page                                                   # steps.LoginStep.iShouldStillBeOnTheLoginPage()
+Scenario: Logout from product page => PASSED
+]]></system-out>
+    <system-err><![CDATA[Jun 10, 2026 3:48:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 10, 2026 3:48:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
