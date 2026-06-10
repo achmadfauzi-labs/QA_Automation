@@ -28,8 +28,6 @@ Proyek **QA Automation** berbasis **Selenium + Cucumber (BDD)** untuk menguji fu
 
 > Website yang diuji: **https://www.saucedemo.com/**
 
-![Sauce Demo](https://www.saucedemo.com/static/media/SwagLabs_logo.ddc5f50f.png)
-
 ---
 
 ## ✅ Fitur yang Diuji
@@ -94,8 +92,8 @@ Pastikan sudah terinstall:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/REPO-NAME.git
-cd REPO-NAME
+git clone https://github.com/achmadfauzi-labs/QA_Automation.git
+cd QA_Automation
 ```
 
 ### 2. Jalankan Semua Test
